@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.size {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 30px;
+  margin-bottom: 32px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 32px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+/*# sourceMappingURL=index.css.map */
+.bg-custom {
+  background-color: #1c2331;
+}
+
+.button-fixed {
+  bottom: 0;
+  position: fixed;
+  right: 0;
+  border-radius: 4px;
+}
+
+.fas {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+p {
+  font-size: 14px;
+}
+h4,
+h3 {
+  font-weight: bold;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .bg-image {
+    height: 70vh;
+    color: rgb(139, 2, 2);
+    font-weight: bold;
+  }
+}
+
+/* Medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .bg-image {
+    height: 70vh;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1025px) {
+  .bg-image {
+    height: 140vh;
+  }
+  .Headertext {
+    color: black;
+    font-weight: bold;
+    font-family: cursive;
+  }
+}
